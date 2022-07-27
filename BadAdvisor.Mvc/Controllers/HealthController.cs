@@ -8,7 +8,7 @@ namespace BadAdvisor.Mvc.Controllers
         [HttpGet("live")]
         public async Task<IActionResult> Live()
         {
-            return await Task.FromResult(Ok("Bad Advisor is healthy"));
+            return await Task.FromResult(Ok("Legacy Bad Advisor is healthy"));
         }
     }
 }
